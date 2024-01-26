@@ -1,1 +1,99 @@
+theme{
+  palette: {
+    primary: {
+      main: "#7600D7",
+      dark: "#282828",
+      light: "#fafafa",
+      grey: "#a6a6a6",
+      contrastText: "#fff",
+    },
+    secondary: {
+      main: "#000000",
+      light: "#ba68c8",
+      white: "#fff",
+    },
 
+    grey: {
+      main: "#bdbdbd",
+      light: "#eeeeee",
+      dark: "#757575",
+      contrastText: "#eaeaf0",
+    },
+    orange: {
+      light: "#FFE9E9",
+      main: "#FFCD0C",
+    },
+    yellow: {
+      main: "#FFFF00",
+      light: "#FFFEE0",
+    },
+    purple: {
+      light: "#E6C7FF",
+      main: "#AA66A",
+    },
+
+    green: {
+      light: "#9DCA70",
+      main: "#64C941",
+    },
+    pink: {
+      dark: "#F46E7E",
+    },
+    red: {
+      main: "#FF0000",
+    },
+
+    blue: {
+      main: "#784af4",
+    },
+    dark: {
+      dark: "#373737",
+    },
+
+    formStatus: {
+      await: "#FABD04",
+      draft: "#F5BCA9",
+      open: "#1E9D5E",
+      verify: "#1E8FDA",
+      locked: "#AC5151",
+      cancel: "#A051AC",
+      undef: "#FFFFFF",
+      inprogress: "#AC5151",
+      complete: "#A9A9A9",
+    },
+    orderStatus: {
+      started: "#09D04D",
+      awaiting: "#FFCD0C",
+      completed: "#EE3838",
+      notStarted: "#BFBFBF",
+      draft: "#F9F9F9",
+    },
+    jobStatus: {
+      started: "#09D04D",
+      awaiting: "#FFCD0C",
+      completed: "#EE3838",
+      notStarted: "#BFBFBF",
+      draft: "#F9F9F9",
+    },
+  },
+  typography: {
+    h1: {
+      fontWeight: "bold",
+      fontSize: "18px",
+    },
+    h2: {
+      fontWeight: "bold",
+      fontSize: "14px",
+    },
+    h3: {
+      color: "#7600D7",
+      fontSize: "16px",
+    },
+    tran: {
+      fontSize: "15px",
+      paddingLeft: "5px",
+      fontWeight: "400px",
+      paddingBottom: "10px",
+    },
+  },
+};
